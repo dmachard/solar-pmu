@@ -10,13 +10,5 @@ It features a dedicated Li-ion charger with dynamic power path management, an in
 
 * **PMIC / Charger**: BQ25185
 * **Battery:** Onboard single 18650 Li-ion holder
-* **Voltage Regulator:** ME6211
+* **Voltage Regulator:** SGM2205
 * **Power Monitoring**: INA226
-
-## Pinout
-
-| Connector | Type | Pin 1 | Pin 2 |
-| :--- | :--- | :--- | :--- |
-| **SOLAR1 / SOLAR2** | JST-PH 2.0 | `+` (V_IN) | `-` (GND) |
-| **3.3V OUT** | JST-PH 2.0 | `-` (GND) | `+` (3.3V) |
-| **I2C** | JST-PH 2.0 | SDA | SCL |
