@@ -22,6 +22,6 @@ The `LED_CHG` and `LED_ERR` indicators are driven by the BQ25185 open-drain stat
 | Charging in progress | On | Off |
 | Charge complete, charger asleep, or charging disabled | Off | Off |
 | Recoverable fault (for example, input overvoltage or battery temperature fault) | Off | On |
-| Non-recoverable or latched fault (for example, safety timer expired) | On | On |
+| Non-recoverable or latched fault (for example, the 6-hour safety timer has expired) | On | On |
 
 With no battery connected, `LED_CHG` may blink as the charger alternates between charging and charge-complete states. See the [BQ25185 datasheet](https://www.ti.com/lit/ds/symlink/bq25185.pdf) for details.
